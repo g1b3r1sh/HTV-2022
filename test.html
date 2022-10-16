@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="test.js"></script>
+		<link rel="stylesheet" href="table-template/css/style.css">
+	</head>
+	<body>
+		<p3>Upload endangered animal image:</p3>
+		<form action="javascript:handleUpload();">
+			<input type="file" id="animalFile" name="filename">
+			<input type="submit">
+			<p3 style="color: red", id="animalFileError"></p3>
+		</form>
+		<br/>
+		<div class="container">
+			<table style="margin: auto;">
+				<thead><tr><th>Endangered Animals Near You:</th></th></tr></thead>
+				<tbody id="animalTable"></tbody>
+			</table>
+		</div>
+	</body>
+</html>

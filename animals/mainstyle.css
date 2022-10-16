@@ -1,0 +1,71 @@
+
+body
+{
+	background-color: rgb(149, 211, 147);
+	margin-left: 0px;
+	margin-right: 0px;
+	margin: 0px;
+}
+
+#introHeading
+{
+	color: rgb(16, 77, 34);
+	font-size: 60px;
+	font-family: Georgia, "Arial Narrow", monospace;
+	text-align: center;
+	margin-top: 55px;
+}
+
+#introParagraph
+{
+	color: rgb(16, 77, 34);
+	font-size: 25px;
+	font-family: Georgia, "Arial Narrow", monospace;
+	font-style: Italic;
+	text-align: center;
+	margin-bottom: 55px;
+}
+
+.lineSeperator
+{
+	border-top: 3px solid rgb(16, 77, 34);
+	border-width: medium;
+}
+
+
+.infoportion
+{
+	font-family: Georgia, "Arial Narrow", monospace;
+	font-size: 25px;
+	color: black;
+	line-height: 30pt;
+	margin-left: 10%;
+	margin-right: 20%;
+}
+
+.infoheading
+{
+	font-size: 35px;
+	color: rgb(16, 77, 34);
+}
+
+.headHeading
+{
+	font-size:40px;
+	color:rgb(7, 39, 16);
+	border-style: none;
+	text-align: left;
+	
+}
+
+.Img
+{
+  border-color: black;
+  border-width: medium;
+  border-style: solid;
+  margin-left: 25px;
+  margin-right: 10%;
+  margin-bottom: 20px;
+  height: 150px;
+  float: right; 
+}
